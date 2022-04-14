@@ -1,0 +1,92 @@
+/* General */
+body {
+    background-color: #678;
+    width: 700px;
+    margin: auto;
+}
+
+
+header h1 {
+  color: #fff;
+}
+
+/* Header dan footer*/
+header, footer {
+  background-color: #345;
+  padding: 20px;
+}
+header p
+footer p {
+  color: #fed;
+}
+header a 
+footer a {
+  color: #def;
+  text-decoration: none;
+}
+header a:hover 
+footer a:hover {
+  color: #fed;
+  text-decoration: underline;
+}
+footer p {
+  text-align: center;
+}
+
+/* Navigasi */
+nav {
+  width: 200px;
+  float: left;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav a {
+  color: #543;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: #fff;
+  color: #f30;
+  border-left: 10px solid #f30;
+}
+
+
+/* Article */
+article {
+  background-color: #abc;
+
+}
+section {
+  background-color: #fff;
+  margin-left: 200px;
+  padding: 20px;
+}
+article p, 
+article li {
+  text-align: justify;
+}
+article figure {
+  float: left;
+  margin: 0px, 10px, 5px, 0px;
+}
+article figcaption {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+article table {
+  border-collapse: collapse;
+}
+article td,
+article th {
+  border: 1px solid #000;
+  padding: 5px, 10px;
+}
+tr:nth-child(odd) {
+  background-color: #eee;
+}
